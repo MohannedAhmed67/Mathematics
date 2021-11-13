@@ -7,8 +7,8 @@ def f(z):
 
 #Asking the user for the desired number of points, the start and the end of the interval.
 N = int(input("The number of points to be randomised: "))
-S = int(input("The integer start of the interval: "))
-E = int(input("The integer end of the interval: "))
+S = float(input("The start of the interval: "))
+E = float(input("The end of the interval: "))
 step = float(input("The value of the step between plots: "))
 
 #The plots of the main function.
