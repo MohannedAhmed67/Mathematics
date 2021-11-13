@@ -28,7 +28,7 @@ above_the_curve = np.where(random_y >= f(random_x))
 Below_the_curve = plt.scatter(random_x[below_the_curve], random_y[below_the_curve], color="blue")
 Above_the_curve = plt.scatter(random_x[above_the_curve], random_y[above_the_curve], color="red")
 
-#Graphing the main function 
+#Graphing the main function.
 plt.plot(x, y, color="green")
 
 #The x-axis and the y-axis.
